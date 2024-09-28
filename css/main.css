@@ -71,3 +71,15 @@ section .containerr .div-register .input-control .error{
     50%{transform: translateX(10px);}
     100%{transform: translateX(-10px);}
 }
+
+
+
+
+@media (max-width:770px) {
+    .containerr{
+        width: 90%;
+    }
+    section{
+        padding: 0 10%;
+    }
+}
