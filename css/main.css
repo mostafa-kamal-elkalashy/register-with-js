@@ -1,0 +1,66 @@
+section{
+    background: linear-gradient( rgb(161, 205, 153),  rgb(98, 184, 201));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+section .containerr{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    border-radius: 20px;
+    padding: 50px;
+}
+section .containerr h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    
+}
+section .containerr .div-register{
+    display: flex;
+    flex-direction:column;
+    
+    margin: auto;
+}
+section .containerr .div-register .input-control{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+section .containerr .div-register .input-control input{
+    border-radius: 20px;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+}
+section .containerr .div-register .input-control label{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+section .containerr .div-register button{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40%;
+    border-radius: 20px;
+    background: linear-gradient( rgb(161, 205, 153),  rgb(98, 184, 201));
+    color: white;
+    border: none;
+    align-items: center;
+    margin: auto;
+}
+section .containerr .div-register .input-control .error{
+    color: red;
+}
+
+
+.err{
+    border-color: rgba(255, 0, 0, 0.69);
+    animation: shake .13s 3;
+}
+.suc{
+    border-color: rgba(0, 220, 0, .7);
+}
