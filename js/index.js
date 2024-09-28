@@ -42,15 +42,15 @@ const errors=function(element,message){
     const inputControl=element.parentElement;
     errorDisplay = inputControl.querySelector('.error');
     errorDisplay.innerText = message;
-
-    element.classList.add("err");
     element.classList.remove("suc");
+    element.classList.add("err");
+    
 
 }
 
 const sucess=function(element){
     const inputControl = element.parentElement;
-    errorDisplay = inputControl.querySelector('error');
+    errorDisplay = inputControl.querySelector('.error');
     errorDisplay.innerText="";
     element.classList.remove('err');
     element.classList.add('suc');

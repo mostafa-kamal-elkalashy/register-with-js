@@ -35,6 +35,7 @@ section .containerr .div-register .input-control input{
     height: 50px;
     width: 100%;
     padding: 20px;
+    transition: all .5s;
 }
 section .containerr .div-register .input-control label{
     display: flex;
@@ -59,8 +60,14 @@ section .containerr .div-register .input-control .error{
 
 .err{
     border-color: rgba(255, 0, 0, 0.69);
-    animation: shake .13s 3;
+    animation: mosatafa .13s 3;
 }
 .suc{
     border-color: rgba(0, 220, 0, .7);
+}
+
+@keyframes mosatafa{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(10px);}
+    100%{transform: translateX(-10px);}
 }
